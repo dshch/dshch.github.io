@@ -1,0 +1,36 @@
+.tl{
+    float: left;
+    font-weight:bolder;
+   
+}
+.tr{
+    float: right;
+
+}
+.column{
+    float:left;
+    text-align: left;
+    display: block;
+    margin-right: 200px;
+    
+}
+.stripy tr:nth-child(2n){
+    background-color: whitesmoke;
+}
+.stripy{
+    margin-left: 220px;
+    font-size: 20px;
+}
+td{
+    width: 300px;
+}
+.tabl{
+    width: 900px;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 0px 220px;
+    font-size: 25px;
+    padding: 5px 0px 5px 0px;
+    
+}
+

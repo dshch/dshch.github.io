@@ -1,0 +1,144 @@
+.hidden-menu {
+  display: block;
+  position: fixed;
+  list-style:none;
+  padding: 0px 0px 0px 20px;
+  margin: 0;
+     border-right: 1px solid white;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #000;
+  height: 100%;
+  top: 0;
+  left: -200px;
+  transition: left .2s;
+  z-index: 2;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.hidden-menu-ticker {
+  display: none;
+}
+.hidden-menu p{
+ padding: 0px 0px 0px 0px;
+    font-family: "Helvetica";
+    color: #fff;
+     font-size: 30px;  
+}
+.btn-menu {
+  color: #fff;
+  background-color: #fff;
+
+  padding: 10px;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: left .23s;
+  z-index: 3;
+  width: 50px;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+.btn-menu span {
+  display: block;
+  height: 50px;
+  background-color: #000;
+  margin: 5px 0 0;
+  transition: all .2s linear .23s;
+  position: relative;
+}
+.btn-menu span.first {
+  margin-top: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 0px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: 0px;
+}
+.hidden-menu a{
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-color: #fff;
+    width: 160px;
+    padding: 5%;
+    cursor: pointer;
+    margin-top: 20px;
+    position: relative;
+    line-height: 2;
+    display: block; 
+    text-align: center;
+}
+.form {
+   margin-left: 150px;
+    display:inline-block;
+}
+textarea, input {
+border: 3px solid #000;
+}
+.goback{
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+    margin-top: 0px;
+    height: 55px;
+   padding-top: 25px;
+}
+.goback a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+     border: 1px solid white;
+    
+} 
+.downbar{
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+    height: 100px;
+    padding-top: 50px;
+}
+.downbar a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 10px; 
+    margin-right: 10px;
+    clear: both;
+}
+.faq p{ 
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    background-color: #000;
+    padding: 0;
+   
+    height: 50px;
+    margin: 0;
+    padding-top: 20px;
+}
+.faq a{
+        
+
+     color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+     
+}
