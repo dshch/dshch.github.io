@@ -1,0 +1,15 @@
+.cubes1{
+    width: 20%;
+    margin: 0;
+    
+}
+.cubes2{
+    width: 20%;
+    margin-top: 40px;
+    float: right;
+}
+.gallery{
+    margin: 20px;
+    border: 0;
+    display:inline;
+}
